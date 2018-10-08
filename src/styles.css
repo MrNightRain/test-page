@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+/* text settings */
+* {
+  font-family: Open Sans;
+  font-style: normal;
+  font-variant: normal;
+  text-align: left;
+
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: rgb(83, 84, 94);
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(175, 175, 175);
+}
+
+blockquote {
+  font-size: 17.5px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+pre {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.5667px;
+}
+
+
+/* main body settings */
+body {
+  background-color: rgb(233, 233, 233);
+  padding: 0px;
+  margin: 0px;
+}
+
+/* other global */
+
+*a{
+  cursor: pointer;
+  text-decoration: none;
+
+}

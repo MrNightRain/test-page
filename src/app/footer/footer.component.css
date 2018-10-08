@@ -1,0 +1,76 @@
+.fBlock{
+    width: 60vw;
+    
+}
+
+.ftop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 56vw;
+    height: 100px;
+    margin: 0px 2vw 0px 2vw;
+    justify-content: space-between;
+}
+.fbot{
+    width: 60vw;
+    background-color: rgb(83, 84, 94);
+    padding: 2vw;
+
+}
+
+.b1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    padding-bottom: 2vw;
+}
+
+.tlp{
+    width: 32vw;
+}
+
+.trp{
+    display: flex;
+    flex-direction: column;
+}
+.sb{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.arrow{
+    border: solid rgb(116, 116, 116);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+a{
+    font-size: large;
+    text-decoration: none;
+    color:  rgb(190, 190, 190);
+} 
+.b2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw;
+}
+.socIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 3vw;
+    background-color: rgb(190, 190, 190);
+    border-radius: 3vw;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+.fa{
+    color: rgb(83, 84, 94);
+    font-size: 2vw;
+}
